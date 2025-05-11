@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 
 import Head from 'next/head'
 import Image from 'next/image';
@@ -19,10 +20,10 @@ export default function Home() {
 
       <div className="flex flex-col items-start justify-center h-full space-y-6 mt-32 ml-8 lg:ml-16">
          
-    <h1 className="text-3xl text-white font-semibold">
-      Quanto dias para você <br /> aprender passo a passo <br /> de como faturar
-      <span className="text-pink-500"> R$10.000</span> <br /> todos os meses com a Estética
-    </h1>
+      <h1 className="text-3xl text-white font-semibold">
+        Quanto dias para você <br /> aprender passo a passo <br /> de como faturar
+        <span className="text-pink-500"> R$10.000</span> <br /> todos os meses com a Estética
+      </h1>
 
    
     <p className="text-sm text-white">
@@ -37,23 +38,22 @@ export default function Home() {
     
     <div className="flex flex-col space-y-4 items-start">
       <input
-        type="text"
-        placeholder="Seu Nome"
-        className="w-80 px-4 py-2 border border-pink-500 rounded-md bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
+      type="text"
+    placeholder="Seu Nome"
+    className="w-80 px-4 py-2 border border-pink-500 rounded-md bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-pink-500 mr-4 sm:mr-0"
       />
       <input
-        type="text"
-        placeholder="WhatsApp com DD"
-        className="w-80 px-4 py-2 border border-pink-500 rounded-md bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
-      />
+       type="text"
+    placeholder="WhatsApp com DD"
+    className="w-80 px-4 py-2 border border-pink-500 rounded-md bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-pink-500 mr-4 sm:mr-0"
+       />
       <input
-        type="email"
-        placeholder="Seu Email"
-        className="w-80 px-4 py-2 border border-pink-500 rounded-md bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-pink-500"
-      />
+       type="email"
+    placeholder="Seu Email"
+    className="w-80 px-4 py-2 border border-pink-500 rounded-md bg-transparent text-white focus:outline-none focus:ring-2 focus:ring-pink-500 mr-4 sm:mr-0"
+       />
     </div>
 
-    
       <button className="mt-6 bg-pink-500 text-white px-8 py-2 rounded-md hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500">
         Fazer meu cadastro
       </button>
