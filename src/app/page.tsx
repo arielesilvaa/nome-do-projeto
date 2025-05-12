@@ -21,7 +21,7 @@ export default function Home() {
       <div className="flex flex-col items-start justify-center h-full space-y-6 mt-32 ml-8 lg:ml-16">
          
       <h1 className="text-3xl text-white font-semibold">
-        Quanto dias para você <br /> aprender passo a passo <br /> de como faturar
+        Quatro dias para você <br /> aprender passo a passo <br /> de como faturar
         <span className="text-pink-500"> R$10.000</span> <br /> todos os meses com a Estética
       </h1>
 
